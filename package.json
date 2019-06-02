@@ -2,7 +2,7 @@
   "name": "onMind",
   "productName": "onMind",
   "version": "0.1.1",
-  "description": "A tool for help on focus one thing in 25 minutes ",
+  "description": "A tool for help on focus one thing in 25 minutes",
   "scripts": {
     "build": "concurrently \"yarn build-main\" \"yarn build-renderer\"",
     "build-dll": "cross-env NODE_ENV=development webpack --config ./configs/webpack.config.renderer.dev.dll.babel.js --colors",
@@ -52,8 +52,8 @@
   },
   "main": "./app/main.prod.js",
   "build": {
-    "productName": "Focus",
-    "appId": "org.helkyle.Focus",
+    "productName": "onMind",
+    "appId": "onMind",
     "files": [
       "app/dist/",
       "app/app.html",
@@ -94,12 +94,6 @@
     "directories": {
       "buildResources": "resources",
       "output": "release"
-    },
-    "publish": {
-      "provider": "github",
-      "owner": "helkyle",
-      "repo": "focus",
-      "private": false
     }
   },
   "license": "MIT",

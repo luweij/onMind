@@ -219,23 +219,6 @@ export default class MenuBuilder {
                 }
               ]
       },
-      {
-        label: 'Help',
-        submenu: [
-          {
-            label: 'Learn More',
-            click() {
-              shell.openExternal('https://github.com/HelKyle/focus');
-            }
-          },
-          {
-            label: 'Search Issues',
-            click() {
-              shell.openExternal('https://github.com/HelKyle/focus/issues');
-            }
-          }
-        ]
-      }
     ];
 
     return templateDefault;
